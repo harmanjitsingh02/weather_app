@@ -1,0 +1,140 @@
+body{
+    background-color: rgb(22, 16, 16);
+}
+
+.card{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    gap: 2rem;
+    color: #ebfffc;
+     */
+     width: 90%;
+     max-width: 470px;
+     background-color: rgb(132, 185, 167);
+     color: #fff;
+     margin: 100px auto 0;
+     border-radius: 30px;
+    padding: 40px 35px;
+    text-align: center;
+    
+}
+
+.search-box {
+    display: flex;
+}
+.weather {
+    display: none; 
+}
+body {
+    transition: background-color 1s;
+}
+.card {
+    transition: background-color 1s; 
+}
+.search-box input {
+    transition: background-color 1s; 
+}
+.search-box button {
+    transition: background-color 1s; 
+}
+
+
+.search-box {
+    /* flex: 1;
+    max-width: 470px;
+    padding: 80px;
+    background-color: rgb(152, 179, 165);
+    border-radius: 30px;
+    text-align: center; */
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Media query for screens smaller than 480px */
+/* @media (max-width: 480px) {
+    .search-box {
+        width: 95%;
+        padding: 20px 15px;
+    }
+} */
+
+.search{
+    height:40px;
+    background: rgb(220, 214, 214);
+    outline: 0px;
+    border-radius: 40px;
+    padding: 10px 30px;
+    flex: 1;
+    border: 2px solid black ;
+    margin-right: 16px;
+    font-size: 15px;
+    font-family: cursive;
+    color: #555;
+}
+
+.button{
+    border: 0;
+    border-radius: 40%;
+    outline: 0px;
+    color: #555;
+    
+}
+.button img{
+    border-radius: 30%;
+}
+
+
+
+ .temp{
+    font-size: 80px;
+    color: #ebfffc;
+    margin-top: 10px;
+} 
+
+.city{
+    font-size: 40px;
+    color: #ebfffc;
+    margin-top: -50px;
+} 
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 70px;
+
+}
+
+.humidity{
+    font-size: 30px;
+    color: #ebfffc;
+    margin-top: 10px;
+}
+
+.hp{
+    font-size: 30px;
+    color: #ebfffc;
+    margin-top: -20px;
+    
+}
+
+.wind{
+    font-size: 30px;
+    color: #ebfffc;
+    margin-top: 10px;
+}
+
+.wp{
+    font-size: 30px;
+    color: #ebfffc;
+    margin-top: -20px;
+}
+
+.weather{
+    display: none;
+}
